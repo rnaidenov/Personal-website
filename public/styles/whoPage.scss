@@ -1,0 +1,26 @@
+@import 'common';
+.whoPage{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    .pageTitle{
+        color:$yellow;
+        font-size: 8vw;
+        width: 100%;
+        padding-left: 50%;
+        line-height: 0;
+    }
+    .avatar{
+        height: 350px;
+        width: 350px;
+    }
+    .infoWrap{
+        width:calc(100% - 350px);
+        padding-left: 5%;
+        text-align:center;
+        color:lighten($red,5%);
+        font-size: 2vw;
+        line-height: 55px;
+    }
+}

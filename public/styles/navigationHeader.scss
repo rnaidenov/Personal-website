@@ -1,0 +1,20 @@
+@import 'common';
+
+.header{
+    text-align: center;
+    color:white;
+    width: 100%;
+    p{
+        display: inline-block;
+        margin:2vw;
+        vertical-align: middle;
+        font-size: 2vw;
+    }
+    .selected{
+        font-size: 3vw;
+    }
+    .unselected{
+        opacity: 0.6;    
+    }
+    
+}

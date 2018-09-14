@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+$bgColor: linear-gradient(to bottom,#013B63, black);
+$yellow: #FEB75D;
+$red: #D73A31;
+$pink: #AB4E68;
+
+   
+
+@mixin centerContent {
+    justify-items: center;
+    align-items: center;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif; 
+}
+
+
+body{
+    margin:0;
+    section{
+        background: linear-gradient(to bottom,black,#013B63, black);
+        height: 100vh;
+        display: grid;
+    }
+    p{
+        margin:0;
+    }    
+}
+
+
